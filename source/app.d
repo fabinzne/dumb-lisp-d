@@ -13,8 +13,8 @@ void main()
     try
     {
     auto input = `
-        (defvar *a* 2)
-        (printf (+ *a* 2))
+        (defvar a 2)
+        (printf (+ a 2))
         (defun hello-world ()
             (printf "Hello, world"))
         (hello-world)
