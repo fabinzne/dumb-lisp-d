@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/lisp-interpreter
+lisp-interpreter.so
+lisp-interpreter.dylib
+lisp-interpreter.dll
+lisp-interpreter.a
+lisp-interpreter.lib
+lisp-interpreter-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

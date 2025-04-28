@@ -1,0 +1,5 @@
+name "lisp-interpreter"
+description "A minimal D application."
+authors "Fabiano Luiz Vieira da Silva"
+copyright "Copyright © 2025, Fabiano Luiz Vieira da Silva"
+license "MIT"
