@@ -10,8 +10,6 @@ import interpreter.interpreter : Interpreter;
 
 void main()
 {
-    try
-    {
     auto input = `
         (defvar a 2)
         (printf (+ a 2))
@@ -29,10 +27,5 @@ void main()
     {
         auto expr = parser.parseExpr();
         interp.eval(expr);
-    }
-    }
-    catch(Exception error)
-    {
-        writeln(error);
     }
 }
